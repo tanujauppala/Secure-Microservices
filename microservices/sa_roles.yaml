@@ -1,0 +1,7 @@
+service_account_id: "frontend-to-backend-sa"
+project_id: "sharp-harbor-466005-p5"
+roles:
+  - roles/compute.networkAdmin
+  - roles/run.admin
+  - roles/iam.serviceAccountAdmin
+  - roles/iam.serviceAccountUser

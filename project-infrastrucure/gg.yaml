@@ -1,0 +1,36 @@
+teams:
+  - name: payments-development-team
+    project: payments-devv-app
+    members:
+      - user: tanujauppala9@gmail.com
+        roles:
+          - roles/bigquery.admin
+          - roles/viewer
+      - user: uppalatanuja96@gmail.com
+        roles:
+          - roles/viewer
+
+  - name: payments-production-team
+    project: payments-env-app
+    members:
+      - user: tanujauppala9@gmail.com
+        roles:
+          - roles/viewer
+
+  - name: analytics-development-team
+    project: analytics-dev-app
+    members:
+      - user: tanujauppala9@gmail.com
+        roles:
+          - roles/viewer
+      - user: uppalatanuja96@gmail.com
+        roles:
+          - roles/storage.admin
+          
+
+  - name: analytics-production-team
+    project: analytics-env-app
+    members:
+      - user: tanujauppala9@gmail.com
+        roles:
+          - roles/viewer
